@@ -3,7 +3,7 @@
 Summary: Culmus Hebrew fonts support for LaTeX
 Name: tex-fonts-hebrew
 Version: 0.1
-Release: 20%{?dist}
+Release: 21%{?dist}
 URL: http://culmus.sf.net
 # There is no real upstream for this package. It was based on Yotam Medini's
 # http://www.medini.org/hebrew/culmus2ltx-2003-02-28.tar.gz but is now
@@ -93,6 +93,9 @@ fi
 /usr/bin/texhash
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.1-21
+- Mass rebuild 2013-12-27
+
 * Fri Mar 15 2013 Parag Nemade <pnemade AT redhat DOT com> - 0.1-20
 - Resolves:rh#921852 - Four culmus subpackages are not listed in build require
 - Added BR: and R: for the following packages
